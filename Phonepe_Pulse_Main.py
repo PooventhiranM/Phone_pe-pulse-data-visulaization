@@ -320,12 +320,12 @@ if SELECT == "About":
         st.title("THE BEAT OF PHONEPE")
         st.write("---")
         st.subheader("Phonepe became a leading digital payments company")
-        st.image(Image.open("C:\\Users\\arunk\\OneDrive\\Desktop\\about_phonepe.jpg"),width = 400)
-        with open("C:\\Users\\arunk\\OneDrive\\Desktop\\about_phonepe1.png","rb") as f:
+        st.image(Image.open(r"C:\Users\poove\Downloads\phonepe_image.png"),width = 400)
+        with open(r"C:\Users\poove\Downloads\about_phonepe1.png","rb") as f:
             data = f.read()
         st.download_button("DOWNLOAD REPORT",data,file_name="annual report.pdf")
     with col2:
-        st.image(Image.open("C:\\Users\\arunk\\OneDrive\\Desktop\\about_phonepe1.png"),width = 800)
+        st.image(Image.open(r"C:\Users\poove\Downloads\about_phonepe1.png"),width = 800)
 
 
 #----------------------Contact---------------#
@@ -334,16 +334,16 @@ if SELECT == "About":
 
 
 if SELECT == "Contact":
-    Name = (f'{"Name :"}  {"ARUNKUMAR_BAIRAVAN"}')
-    mail = (f'{"Mail :"}  {"Arunkumarbairavan@gmail.com"}')
+    Name = (f'{"Name :"}  {"Poovethiran"}')
+    mail = (f'{"Mail :"}  {"Pooventhiranmurukesan@gmail.com"}')
     description = "An Aspiring DATA-SCIENTIST..!"
     social_media = {
         "Youtube": "https://youtu.be/zSHhbbkMGVM",
-        "GITHUB": "https://github.com/ArunkumarBairavan/GUVI-CAPSTONE-PROJECTS",
-        "LINKEDIN": "https://www.linkedin.com/in/arunkumar-bairavan-434864196/"}
+        "GITHUB": "https://github.com/PooventhiranM/Phone_pe-pulse-data-visulaization/edit/main/Phonepe_Pulse_Main.py",
+        "LINKEDIN": "https://www.linkedin.com/in/pooventhiranmurukesan/"}
     
     col1, col2, col3 = st.columns(3)
-    col3.image(Image.open("C:\\Users\\arunk\\OneDrive\\Desktop\\Arunkumar.png.jpg"), width=300)
+    col3.image(Image.open(""), width=300)
     st.subheader(Name)
     st.subheader(mail)
     with col2:
